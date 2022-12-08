@@ -46,22 +46,22 @@ body{
 }
 .logocontainer p{
     padding: 5px;
-    font-weight: 3
+    font-weight: 3;
+    cursor: pointer;
 }
 .navbar ul{
     list-style: none;
     display: flex;
     color: white;
-    font-weight: 5;
-    font-family: sans-serif;
-    
+    font-weight: 5;   
 }
 .navbar ul li{
     padding: 0px 3px;
     margin-right: 25px;
     font-size: 18px;
     font-weight: lighter;
-    font-family: sans-serif;
+}
+.cursor li{
     cursor: pointer;
 }
 .zomato-logo{
@@ -73,7 +73,6 @@ body{
     align-items: center;
     height: 420px;
     flex-direction: column;
-
 }
 .header-body{
     position: relative;
@@ -210,8 +209,10 @@ section{
     position: absolute;
     z-index: 2;
     bottom: 8px;
-    color:white;
-    
+    color:white; 
+}
+.section2-item img{
+    cursor: pointer;
 }
 .section-2-image-description p{
     margin: 0;
@@ -249,6 +250,9 @@ section{
     height: 75px;
     overflow: hidden;
     border-radius: 10px;
+}
+.box-2 p{
+    cursor: pointer;
 }
 
 
@@ -429,3 +433,4 @@ email{
     font-size: 0.9rem;
 
 }
+
